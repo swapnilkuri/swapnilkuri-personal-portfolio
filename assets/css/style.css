@@ -1872,18 +1872,20 @@ textarea.form-input::-webkit-resizer { display: none; }
   .social-list { justify-content: center; }
 
 
-/* Fixed Clients List Layout & Sizing */
+/* Fixed Clients List Layout, Alignment & Sizing */
 .clients-list {
   display: flex !important;
   justify-content: center !important;
-  align-items: center !important;
-  gap: 35px !important;
+  align-items: center !important; /* Forces perfect vertical centering */
+  gap: 30px !important;
   padding-bottom: 20px;
 }
 
 .clients-item {
   min-width: auto !important;
   flex: 0 0 auto !important;
+  display: flex !important;
+  align-items: center !important;
 }
 
 .clients-item a {
@@ -1895,18 +1897,20 @@ textarea.form-input::-webkit-resizer { display: none; }
 .clients-item img {
   width: 120px;
   height: 120px;
-  object-fit: cover; /* Crops outer padding so both match visually */
+  object-fit: cover;
   border-radius: 16px;
-  transition: var(--transition-1);
+  transition: transform 0.3s ease;
+  vertical-align: middle;
 }
 
-/* Visual scale compensation for Castle of Princess artwork */
+/* Equalized visual scale without pushing position up */
 .clients-item:first-child img {
-  transform: scale(1.15);
+  transform: scale(1.12);
+  transform-origin: center center;
 }
 
 .clients-item img:hover {
-  transform: scale(1.22);
+  transform: scale(1.18);
 }
 
   /**
