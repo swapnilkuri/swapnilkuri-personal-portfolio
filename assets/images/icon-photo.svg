@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
+  <!-- Video Display Screen Frame -->
+  <rect x="3" y="9" width="24" height="22" rx="3" fill="none" stroke="#FFDB70" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Play Button inside Screen -->
+  <polygon points="12,15 19,20 12,25" fill="none" stroke="#FFDB70" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Camera Lens Side Piece -->
+  <path d="M 27 16 L 37 11 V 29 L 27 24 Z" fill="none" stroke="#FFDB70" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Recording/Live Indicator Dot -->
+  <circle cx="8" cy="13" r="1.5" fill="#FFDB70"/>
+</svg>
