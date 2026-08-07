@@ -1872,6 +1872,29 @@ textarea.form-input::-webkit-resizer { display: none; }
   .social-list { justify-content: center; }
 
 
+	/* Custom Client Logo Sizing */
+.clients-item {
+  min-width: 50%;
+}
+
+.clients-item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-item img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 12px;
+  transition: var(--transition-1);
+}
+
+.clients-item img:hover {
+  transform: scale(1.05);
+}
+
 
   /**
 	 * RESUME
