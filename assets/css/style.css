@@ -1872,9 +1872,18 @@ textarea.form-input::-webkit-resizer { display: none; }
   .social-list { justify-content: center; }
 
 
-	/* Custom Client Logo Sizing */
+/* Fixed Clients List Layout & Sizing */
+.clients-list {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 35px !important;
+  padding-bottom: 20px;
+}
+
 .clients-item {
-  min-width: 50%;
+  min-width: auto !important;
+  flex: 0 0 auto !important;
 }
 
 .clients-item a {
@@ -1886,15 +1895,19 @@ textarea.form-input::-webkit-resizer { display: none; }
 .clients-item img {
   width: 120px;
   height: 120px;
-  object-fit: contain;
-  border-radius: 12px;
+  object-fit: cover; /* Crops outer padding so both match visually */
+  border-radius: 16px;
   transition: var(--transition-1);
 }
 
-.clients-item img:hover {
-  transform: scale(1.05);
+/* Visual scale compensation for Castle of Princess artwork */
+.clients-item:first-child img {
+  transform: scale(1.15);
 }
 
+.clients-item img:hover {
+  transform: scale(1.22);
+}
 
   /**
 	 * RESUME
