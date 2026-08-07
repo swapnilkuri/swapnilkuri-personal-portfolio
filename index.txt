@@ -47,14 +47,14 @@ The most modern and high-quality design made at a professional level.
 
 alt = Web development icon
 Web development
-High-quality development of sites at the professional level.
+Designed, developed, and maintained the official company website to support online course enrollment and study abroad program services.
 
 alt = mobile app icon
 Mobile apps
 Professional development of applications for iOS and Android.
 
 alt = camera icon
-Photography
+Video Editing & Content Creation
 I make high-energy gaming streams, video highlights, and football analysis content.
 
 ## testimonials
@@ -109,17 +109,17 @@ GPA: 4.94
 
 Experience
 
-Creative director
-2015 — Present
-Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.
+Web Development
+2025 — Present
+Design, develop, and maintain the official company website to support online course enrollment and study abroad program services.
 
-Art director
-2013 — 2015
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+IT & Technical Support
+2021 — Present
+Troubleshoot hardware and software issues for students in real time, resolving microphone setup, audio playback, and Discord connectivity problems during live classes.
 
-Web designer
-2010 — 2013
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+Student Onboarding & Technical Assistance:
+2021 — Present
+Assist incoming students with account creation, platform navigation, and digital orientation to ensure a smooth virtual learning experience.
 
 My skills
 
