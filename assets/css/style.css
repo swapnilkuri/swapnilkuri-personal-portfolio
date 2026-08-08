@@ -1927,6 +1927,21 @@ textarea.form-input::-webkit-resizer { display: none; }
 .service-icon-box img {
   margin: 0 auto;
 }
+
+
+/* Dark Mode Filter for Google Map */
+.mapbox figure,
+.mapbox iframe {
+  border-radius: 16px;
+  filter: grayscale(80%) invert(90%) contrast(90%);
+  transition: filter 0.3s ease;
+}
+
+.mapbox figure:hover iframe {
+  filter: grayscale(0%) invert(0%) contrast(100%);
+}
+
+	
   /**
 	 * RESUME
 	 */
