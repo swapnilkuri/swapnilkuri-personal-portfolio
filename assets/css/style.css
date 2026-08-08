@@ -1913,6 +1913,20 @@ textarea.form-input::-webkit-resizer { display: none; }
   transform: scale(1.18);
 }
 
+
+
+	/* Service Icon Centering Fix for Mobile */
+.service-icon-box {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-inline: auto;
+}
+
+.service-icon-box svg,
+.service-icon-box img {
+  margin: 0 auto;
+}
   /**
 	 * RESUME
 	 */
